@@ -56,7 +56,7 @@
     <li>Execute o script e verifique se o Banco de dados de nome zimut com a table bd foi criado</li>
     <li>Abra a pasta do repositorio do desafio</li>
     <li>Navegue ate a pasta config</li>
-    <li>Abra a pasta com qualquer editor de texto e insira na linha Passowrd entre as aspas '' a sua senha do Mysql </li>
+    <li>Abra a pasta e com qualquer editor de texto abra o arquivo dbConnection.js e insira na linha Password entre as aspas '' a sua senha do Mysql </li>
     <li>Na linha user insira o seu usuario mysql</li>
     <li>clique com o botão direito em algum local dentro da pasta</li>
     <li>Procure a opção que abra o terminal de seu OS (Windows: cmd, Linux: terminal, Macintosh: shell)</li>
