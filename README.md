@@ -43,7 +43,7 @@
     <li>Qualquer navegador ex: Google Chrome, Opera, Safari, Edge, IE...</li>
     
 </ul><br><br>
-<h3>Requisitos desejaveis:</h3>
+<h3>Requisitos desejáveis:</h3>
 <ul>
     <li>Nodemon</li>
 </ul>
