@@ -4,6 +4,7 @@ create table bd(
 	
     id varchar(100) primary key,
     nome varchar(100) not null,
+    sobrenome varchar(100) not null,
     dataNascimento date not null,
     cpf varchar(20) unique not null,
     cep varchar(15) not null,

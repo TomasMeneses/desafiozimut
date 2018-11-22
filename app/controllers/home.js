@@ -9,6 +9,7 @@ module.exports.pessoas_salvar = function(application, req, res){
 
     
    req.assert('nome', 'Nome é obrigatório').notEmpty();
+   req.assert('sobrenome', 'Sobrenome é obrigatório').notEmpty();
     req.assert('dataNascimento', 'Data de nascimento é obrigatório').notEmpty();
     req.assert('cpf', 'CPF é obrigatório').notEmpty();
     req.assert('cep', 'CEP é obrigatório')//.len(10, 100);
