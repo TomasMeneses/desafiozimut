@@ -41,6 +41,6 @@ module.exports.pessoas_salvar = function(application, req, res){
         }else{
             res.status(500).send('<h1>Cadastro Realizado!</h1></br><a href="http://localhost:8080">Clique aqui</a> e volte para o cadastro Zimut!');
         }
-            //  res.redirect('/noticias'); //trocar pra onde redirecionar
+            
     });
 }
