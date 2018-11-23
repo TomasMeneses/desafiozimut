@@ -74,6 +74,8 @@
 
 <h2>Testando o cadastro</h2>
 
+
+
 <h3>É bom saber:</h3>
 <ul>
     <li>Utilize o site:https://www.4devs.com.br/gerador_de_cpf para gerar um cpf no padrão válido </li>
@@ -82,6 +84,8 @@
     <li>O campo CPF deve ser preenchido obedecendo o padrão da receita federal, do contrário o cadastro não será realizado</li>
     <li>O preenchimento incorreto do CPF fará com que, ao tentar realizar o cadastro o sistema exiba um alerta de CPF inválido</li>
     <li>O não preenchimento de algum campo obrigatório não permitirá a conclusão do cadastro</li>
-    <li>Os campos erros de validação dos campos que não foram preenchidos serão exibidos para o usuário</li>
+    <li>Os campos erros de validação dos campos que não foram preenchidos serão exibidos para o usuário no inicio da página</li>
+    <li>Ao tentar cadastrar um CPF já cadastrado o usuário será redirecionado para uma página de alerta Informando que o cpf já foi cadastrado e oferecendo a opção de voltar para o site de cadastro</li>
+    <li></li>
 </ul>
 
