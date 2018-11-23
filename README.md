@@ -30,7 +30,10 @@
     <li>implementação de placeholders com exemplo de modelos de inputs em CEP e CPF</li>
     <li>Criadas mensagens de Erro no cadastro,Erro: CPF já cadastrado e Cadastro Realizado</li>
     <li>Testes das mensagens</li>
-    <li>Finalização do Site</li>
+    <li>Voltei a melhorar a organização do site</li>
+    <li>Melhoras no bootstrap</li>
+    <li>Adicionei um método de busca por cpf no back-end</li>
+    <li>Reformulação do front-end com nova organização dos inputs e novo background</li>
 
 </ol>
 
@@ -54,15 +57,31 @@
     <li>Abra seu XAMPP e ative o MySQL clicando em Start</li>
     <li>Abra seu Workbench e clique em File>Open Script , selecione o arquivo scriptBD.sql e abra-o </li>
     <li>Execute o script e verifique se o Banco de dados de nome zimut com a table bd foi criado</li>
-    <li>Abra a pasta do repositorio do desafio</li>
+    <li>Caso prefira, no lugar do passo 3 e 4 faça o seguinte: Abra o arquivo scriptBD.sql com algum editor de texto, copie o conteudo e cole no seu Workbench e então execute o código</li>
+    <li>Abra a pasta que em que voce clonou o desafio</li>
     <li>Navegue ate a pasta config</li>
     <li>Abra a pasta e com qualquer editor de texto abra o arquivo dbConnection.js e insira na linha Password entre as aspas '' a sua senha do Mysql </li>
-    <li>Na linha user insira o seu usuario mysql</li>
-    <li>clique com o botão direito em algum local dentro da pasta</li>
-    <li>Procure a opção que abra o terminal de seu OS (Windows: cmd, Linux: terminal, Macintosh: shell)</li>
+    <li>Na linha user insira o seu usuario mysql também entre as aspas ''</li>
+    <li>Agora vamos "ligar" o servidor</li>
+    <li>Abra o prompt de comando do seu OS (Windows: cmd, Linux: terminal, Macintosh: shell)</li>
+    <li>Já no seu prompt de comando navegue até a pasta clonada do github: desafiozimut</li>
     <li>Com o terminal aberto digite o seguinte comando: node app.js</li>
-    <li>CASO POSSUA NODEMON poderá executar o seguinte comando: nodemon app.js</li>
-    <li>Verifique que irá aparecer em algum momento: SERVIDOR ON</li>
+    <li>CASO POSSUA NODEMON poderá executar o seguinte comando: nodemon app.js no lugar do passo anterior</li>
+    <li>Verifique que irá aparecer em algum momento: SERVIDOR ON no seu prompt de comando</li>
     <li>Agora va até o seu navegador de Internet e digite na barra de endereços o seguinte endereço: localhost:8080</li>
     <li>O Site deverá abrir</li>
 </ol>
+
+<h2>Testando o cadastro</h2>
+
+<h3>É bom saber:</h3>
+<ul>
+    <li>Utilize o site:https://www.4devs.com.br/gerador_de_cpf para gerar um cpf no padrão válido </li>
+    <li>Ao gerar o cpf marque a opção para gera SEM pontuação</li>
+    <li>O site tem campos obrigatórios marcados com um * vermelho</li>
+    <li>O campo CPF deve ser preenchido obedecendo o padrão da receita federal, do contrário o cadastro não será realizado</li>
+    <li>O preenchimento incorreto do CPF fará com que, ao tentar realizar o cadastro o sistema exiba um alerta de CPF inválido</li>
+    <li>O não preenchimento de algum campo obrigatório não permitirá a conclusão do cadastro</li>
+    <li>Os campos erros de validação dos campos que não foram preenchidos serão exibidos para o usuário</li>
+</ul>
+
