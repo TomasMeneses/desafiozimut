@@ -86,6 +86,5 @@
     <li>O não preenchimento de algum campo obrigatório não permitirá a conclusão do cadastro</li>
     <li>Os campos erros de validação dos campos que não foram preenchidos serão exibidos para o usuário no inicio da página</li>
     <li>Ao tentar cadastrar um CPF já cadastrado o usuário será redirecionado para uma página de alerta Informando que o cpf já foi cadastrado e oferecendo a opção de voltar para o site de cadastro</li>
-    <li></li>
 </ul>
 
