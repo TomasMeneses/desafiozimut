@@ -63,6 +63,6 @@
     <li>Com o terminal aberto digite o seguinte comando: node app.js</li>
     <li>CASO POSSUA NODEMON poderá executar o seguinte comando: nodemon app.js</li>
     <li>Verifique que irá aparecer em algum momento: SERVIDOR ON</li>
-    <li>Agora va até o seu navegador de Internet e digite na barra de pesquisa o seguinte endereço: localhost:8080</li>
+    <li>Agora va até o seu navegador de Internet e digite na barra de endereços o seguinte endereço: localhost:8080</li>
     <li>O Site deverá abrir</li>
 </ol>
