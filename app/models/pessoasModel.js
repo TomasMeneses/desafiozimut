@@ -9,6 +9,10 @@ module.exports = function(){
     this.salvarPessoas = function(pessoa, connection, callback){
         connection.query('insert into bd set ?', pessoa, callback);
     }
+    
+    this.getPessoa = function(cpf, callback){
+        this._connection.query(`SELECT * FROM bd WHERE cpf = ${cpf}`, callback); 
+    }
 
     return this;
 
