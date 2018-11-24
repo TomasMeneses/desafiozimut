@@ -19,9 +19,9 @@
     <li>Inicialização da criação do backend com node.js</li>
     <li>Tentativa da implementação do node.js com Restify</li>
     <li>Dificuldade com a biblioteca do Restify e mudança para Express</li>
-    <li>Criação do banco de dados para testes com o programa POSTMAN</li>
+    <li>Criação do banco de dados do Mysql para testar o back-end com auxilio do programa POSTMAN</li>
     <li>Pesquisa sobre modularização do projeto e implementação da modularização</li>
-    <li>Implementação do UUID no back-end com a require do node.js</li>
+    <li>Implementação do UUID no back-end com a biblioteca UUID do Node.js</li>
     <li>Implementação dos erros de validação no back-end</li>
     <li>Adaptação e teste da página do front-end para ver se os erros de validação estavam sendo exibidos</li>
     <li>Inclusão do BOOTSTRAP nos erros de validação no front-end</li>
