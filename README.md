@@ -20,7 +20,7 @@
     <li>Tentativa da implementação do node.js com Restify</li>
     <li>Dificuldade com a biblioteca do Restify e mudança para Express</li>
     <li>Criação do banco de dados do Mysql para testar o back-end com auxilio do programa POSTMAN</li>
-    <li>Pesquisa sobre modularização do projeto e implementação da modularização</li>
+    <li>Pesquisa sobre modularização do projeto e implementação da modularização (MVC)</li>
     <li>Implementação do UUID no back-end com a biblioteca UUID do Node.js</li>
     <li>Implementação dos erros de validação no back-end</li>
     <li>Adaptação e teste da página do front-end para ver se os erros de validação estavam sendo exibidos</li>
