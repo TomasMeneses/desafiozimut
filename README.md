@@ -51,7 +51,7 @@
     <li>Finalização do projeto</li>
 </ol>
 
-<h3>Requisitos levantar o site :</h3>
+<h3>Requisitos levantar para o site :</h3>
 <ul>
     <li>MySQL Server</li>
     <li>MySQL Workbench</li>
