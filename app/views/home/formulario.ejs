@@ -56,10 +56,10 @@
    
             if ((Resto == 10) || (Resto == 11))  Resto = 0;
             if (Resto != parseInt(strCPF.substring(10, 11) ) ){
-                alert('Cpf inválido');
+                alert('CPF INVÁLIDO');
                return false; 
             }
-            alert('cpf valido'); 
+            alert('CPF VÁLIDO'); 
             return true;
             
         }
@@ -187,7 +187,7 @@
                                     onblur="pesquisacep(this.value);" value="<%=pessoa.cep%>" pattern="\d*" placeholder="Ex: 00000000"/>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <label for="rua">Rua<span>*</span></label>
+                                    <label for="rua">Endereço<span>*</span></label>
                                     <input class="form-control" name="rua" type="text" id="rua" size="60" value="<%=pessoa.rua%>" />
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">

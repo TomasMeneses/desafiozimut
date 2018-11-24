@@ -12,8 +12,8 @@ module.exports.pessoas_salvar = function(application, req, res){
    req.assert('sobrenome', 'Sobrenome é obrigatório').notEmpty();
     req.assert('dataNascimento', 'Data de nascimento é obrigatório').notEmpty();
     req.assert('cpf', 'CPF é obrigatório').notEmpty();
-    req.assert('cep', 'CEP é obrigatório')//.len(10, 100);
-    req.assert('rua', 'Endereço é Obrigatório').notEmpty();
+    req.assert('cep', 'CEP é obrigatório').notEmpty();
+    req.assert('rua', 'Endereço é obrigatório').notEmpty();
     req.assert('bairro', 'Bairro é obrigatório').notEmpty();
     req.assert('cidade', 'Cidade é obrigatório').notEmpty();
     req.assert('uf', 'Estado é obrigatório').notEmpty();
