@@ -94,6 +94,8 @@
 <ul>
     <li>Utilize o site:https://www.4devs.com.br/gerador_de_cpf para gerar um cpf no padrão válido </li>
     <li>Ao gerar o cpf marque a opção para gera SEM pontuação</li>
+    <li><hard>PARA TESTAR O PADRÃO UUID:</hard>Vá até seu workbench e execute os comandos: use zimut; select * from bd;</li>
+    <li>Verifique que em todos os cadastros o primeiro campo (id) estará preenchido com o padrão UUID</li>
     <li>O site tem campos obrigatórios marcados com um * vermelho</li>
     <li>O campo CPF deve ser preenchido obedecendo o padrão da receita federal, do contrário o cadastro não será realizado</li>
     <li>O preenchimento incorreto do CPF fará com que, ao tentar realizar o cadastro o sistema exiba um alerta de CPF inválido</li>
