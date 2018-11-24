@@ -1,5 +1,5 @@
 <h1>Desafio Zimut!</h1>
-<p>Desafio realizado por: Tomas Meneses</p><br/><br/>
+<p>Desafio realizado por: Tomás Meneses</p><br/><br/>
 
 <h3>Tecnologias Utilizadas:</h3>
 <ul>
@@ -34,7 +34,21 @@
     <li>Melhoras no bootstrap</li>
     <li>Adicionei um método de busca por cpf no back-end</li>
     <li>Reformulação do front-end com nova organização dos inputs e novo background</li>
+    <li>Correção nos alertas de validação</li>
+    <li>Update do readme</li>
+    <li>Finalização do projeto</li>
 
+</ol>
+<h3>Roteiro Resumido:</h3>
+<ol>
+    <li>Desenvolvimento do visual básico da página</li>
+    <li>Inclusão do bootstrap</li>
+    <li>Pesquisa e Desenvolvimento do back-end com Node.js</li>
+    <li>Criação do banco de dados</li>
+    <li>Implementação do padrão MVC</li>
+    <li>Finalização do back-end</li>
+    <li>Últimos ajustes no front-end</li>
+    <li>Finalização do projeto</li>
 </ol>
 
 <h3>Requisitos levantar o site :</h3>
